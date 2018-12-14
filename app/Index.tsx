@@ -12,7 +12,6 @@ import React, { Component, Fragment } from 'react';
 import { Button, Platform, StyleSheet, Text, View } from 'react-native';
 import { createAppContainer, createStackNavigator } from 'react-navigation';
 
-import { toastBottom } from './utils/utils';
 import { connect } from 'react-redux';
 
 const instructions = Platform.select({

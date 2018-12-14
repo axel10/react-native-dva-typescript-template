@@ -1,1 +1,0 @@
-import Toast from 'react-native-root-toast';export const toastBottom = (text:string) => {  const toast = Toast.show(text, {    duration:Toast.durations.lONG,    position:Toast.positions.BOTTOM,    shadow: true,    animation: true,    hideOnPress: true,    delay: 0,  });};
