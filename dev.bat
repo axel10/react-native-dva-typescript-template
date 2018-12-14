@@ -1,0 +1,1 @@
+call react-native run-android
